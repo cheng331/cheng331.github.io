@@ -1,26 +1,16 @@
 ---
 layout: default
 ---
-<SCRIPT language=JavaScript> 
-    function password() { 
-    var testV = 1; 
-    var pass1 = prompt('请输入密码:',''); 
-    while (testV < 3) { 
-    if (!pass1) 
-    history.go(-1); 
-    if (pass1 == "230125200903311814") { 
-    alert('密码正确!'); 
-    break; 
-    } 
-    testV+=-1; 
-    var pass1 = prompt('密码错误!请重新输入:'); 
-    } 
-    if (pass1!="password" & testV ==3) 
-    history.go(-1); 
-    return " "; 
-    } 
-    document.write(password()); 
-    </SCRIPT>
+<script type="text/javascript">   
+    loopy()   
+    function loopy() {   
+    var sWord =""  
+    while (sWord != "123") {//设置密码
+    sWord = prompt("输入正确密码才能登陆!")   
+    }   
+    alert("欢迎访问")   
+    }   
+    </script> 
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
