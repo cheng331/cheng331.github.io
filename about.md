@@ -3,6 +3,5 @@ layout: post
 title: About
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+这是我的个人日记网站，由abhinavs编写的moonwalk主题进行删改而来。
+更多我的咨询，请访问https://chengzixuan.github.io/
